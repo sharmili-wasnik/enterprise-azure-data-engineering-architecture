@@ -1,0 +1,19 @@
+{
+  "name": "pl_ingest_raw",
+  "properties": {
+    "parameters": {
+      "sourceFolder": { "type": "String" },
+      "fileName": { "type": "String" },
+      "rawFolder": { "type": "String" }
+    },
+  "activities": [
+    {
+      "name": "LookupControlTable",
+      "type": "Lookup"
+    },
+    {
+      "name": "CopyToRaw",
+      "type": "Copy"
+    }
+  ]
+}
