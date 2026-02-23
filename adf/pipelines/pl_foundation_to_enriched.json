@@ -1,0 +1,15 @@
+{
+  "name": "pl_foundation_to_enriched",
+  "properties": {
+    "parameters": {
+      "foundationPath": { "type": "String" },
+      "enrichedPath": { "type": "String" }
+    },
+    "activities": [
+      {
+        "name": "Databricks_Foundation_To_Enriched",
+        "type": "DatabricksNotebook"
+      }
+    ]
+  }
+}
