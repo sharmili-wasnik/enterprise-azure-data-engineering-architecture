@@ -1,0 +1,15 @@
+{
+  "name": "pl_raw_to_foundation",
+  "properties": {
+    "parameters": {
+      "rawPath": { "type": "String" },
+      "foundationPath": { "type": "String" }
+    },
+    "activities": [
+      {
+        "name": "Databricks_Raw_To_Foundation",
+        "type": "DatabricksNotebook"
+      }
+    ]
+  }
+}
